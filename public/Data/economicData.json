@@ -1,0 +1,49 @@
+{
+    "econmicPGData" :[
+    {
+        "id":"1",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1662535159/Website/CMS-Uploads/fqziumlusgrxoe0iafte.jpg",
+        "title":"Covie 108",
+        "subTitle":"Medicity",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹50,000/mo*"
+    },
+    {
+        "id":"2",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1635836119/Website/CMS-Uploads/eiwukitpkwva6ybukq7o.jpg",
+        "title":"Covie Gurugaon 70",
+        "subTitle":"Sector 46",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹51,300/mo*"
+    },
+    {
+        "id":"3",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1660900932/Website/CMS-Uploads/b0iyadjknyiu7akwrbbl.jpg",
+        "title":"Covie Gurugaon 73",
+        "subTitle":"Sector 47",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹52,400/mo*"
+    },
+    {
+        "id":"4",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1662533423/Website/CMS-Uploads/vq6w3hfmvxemgz0glc38.jpg",
+        "title":"Settl Verona",
+        "subTitle":"Sector 47",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹53,399/mo*"
+    }
+]
+
+}

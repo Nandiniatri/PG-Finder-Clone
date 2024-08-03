@@ -1,0 +1,49 @@
+{
+    "uniSexPGData" :[
+    {
+        "id":"1",
+        "img":"https://img.cofynd.com/images/original/c6b115d0e9209527e7c6ab458a94f9c5593c07c8.jpg",
+        "title":"Covie Gurgaao 70",
+        "subTitle":"Sector 46",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹50,000/mo*"
+    },
+    {
+        "id":"2",
+        "img":"https://img.cofynd.com/images/original/ebbf68d7b9e427e009949dc286f6bfe6c689ce29.jpg",
+        "title":"Amrit Residency",
+        "subTitle":"Sector 21",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹51,300/mo*"
+    },
+    {
+        "id":"3",
+        "img":"https://img.cofynd.com/images/original/5b116db44c5197eb55241cf1d8e9a8d474124d96.jpg",
+        "title":"Amrit Residency 23",
+        "subTitle":"Sector 23",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹52,400/mo*"
+    },
+    {
+        "id":"4",
+        "img":"https://img.cofynd.com/images/original/2614d2b9a9a1f50ff4beef9410dc32e2ebc49ee6.jpg",
+        "title":"GoBravo",
+        "subTitle":"Sector 23",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹53,399/mo*"
+    }
+]
+
+}

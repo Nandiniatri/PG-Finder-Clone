@@ -1,0 +1,49 @@
+{
+    "malePGData" :[
+    {
+        "id":"1",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1680063870/Website/CMS-Uploads/IMG_3837_8_9_hnbasc.jpg",
+        "title":"Rooms in Independent Apartment near Sector 39",
+        "subTitle":"Medanta",
+        "gender":"Male",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹50,000/mo*"
+    },
+    {
+        "id":"2",
+        "img":"https://3.imimg.com/data3/FV/RA/MY-10204515/20-luxurious-pg-accommodation-for-male-female-at-lokhandwa-500x500.jpg",
+        "title":"Rooms in Independent Apartment near Sector 46",
+        "subTitle":"HUDA City Center",
+        "gender":"Male",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹51,300/mo*"
+    },
+    {
+        "id":"3",
+        "img":"https://img1.wsimg.com/isteam/ip/ccc21964-70b3-4ce5-a752-f49f743e2530/blob-fc9690e.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:1000,cg:true",
+        "title":"Rooms in Independent Apartment near Sector 46",
+        "subTitle":"HUDA City Center",
+        "gender":"Male",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹52,400/mo*"
+    },
+    {
+        "id":"4",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/f_auto,q_auto/v1659953889/Website/CMS-Uploads/b5gyl1pds7crdcidsavs.jpg",
+        "title":"Rooms in Independent Apartment near Sector 52",
+        "subTitle":"HUDA City Center",
+        "gender":"Male",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹53,399/mo*"
+    }
+]
+
+}

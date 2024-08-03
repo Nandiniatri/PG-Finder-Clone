@@ -1,0 +1,75 @@
+/* footer */
+.footer-Container{
+    border: solid;
+    background-color: rgb(35 39 40);
+    color: white;
+    padding: 30px;
+    margin-top: 30px; 
+    width: 100%;
+}
+.footer-Container h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 82px;
+    margin-top: 10px;
+}
+.footer-Container-inner-Div{
+    /* border: solid red; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;   
+}
+.footer-Container-inner-Div div a{
+    color: white;
+    text-decoration: none;
+}
+.footer-Container-inner-Div div a:hover{
+    text-decoration:underline;
+}
+ul li{
+    list-style: none;
+    line-height: 40px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.breakLine{
+    border: solid 1px gray;
+    width: 100%;
+    margin-top: 30px;
+}
+.footer-Container-inner-Div1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px; 
+}
+
+.footer-Container-inner-Div1 div a{
+    color: white;
+    text-decoration: none;
+}
+.footer-Container-inner-Div1 div a:hover{
+    text-decoration:underline;
+}
+.inner-Div1-Img{
+    height: 12vh;
+}
+.div2-inner-LiA ul{
+    display: flex;
+    gap: 20px;
+}
+.div2-inner-LiA ul li a{
+    font-size: 25px;
+}
+
+.readInfo{
+    line-height: 25px;
+    padding: 30px;
+    width: 96%;
+    margin-left: 26px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

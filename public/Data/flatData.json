@@ -1,0 +1,48 @@
+{
+    "flatData" :[
+    {
+        "id":"1",
+        "img":"https://media.designcafe.com/wp-content/uploads/2023/07/05141750/aesthetic-room-decor.jpg",
+        "title":"Taiping ",
+        "subTitle":"Medanta",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹24,299/mo*"
+    },
+    {
+        "id":"2",
+        "img":"https://media.designcafe.com/wp-content/uploads/2023/07/05141750/aesthetic-room-decor.jpg",
+        "title":"Houseeee",
+        "subTitle":"Medanta",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹24,299/mo*"
+    },
+    {
+        "id":"3",
+        "img":"https://media.designcafe.com/wp-content/uploads/2023/07/05141750/aesthetic-room-decor.jpg",
+        "title":"Nandini",
+        "subTitle":"Medanta",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹24,299/mo*"
+    },
+    {
+        "id":"4",
+        "img":"https://media.designcafe.com/wp-content/uploads/2023/07/05141750/aesthetic-room-decor.jpg",
+        "title":"Satyam",
+        "subTitle":"Medanta",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹24,299/mo*"
+    }
+]
+}

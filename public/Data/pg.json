@@ -1,0 +1,49 @@
+{
+    "PGRoomInfo" :[
+    {
+        "id":"1",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1669617129/Website/CMS-Uploads/_B3A2859_60_61_tnmlea.jpg",
+        "title":"Taiping House",
+        "subTitle":"Medanta",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹24,299/mo*"
+    },
+    {
+        "id":"2",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+        "title":"Dunkirk House",
+        "subTitle":"Sohna Road",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹24,299/mo*"
+    },
+    {
+        "id":"3",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg",
+        "title":"Tortosa House",
+        "subTitle":"Golf Course Extension",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹24,299/mo*"
+    },
+    {
+        "id":"4",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1657793340/Website/CMS-Uploads/cx9rtnzutfmiobvtyefi.jpg",
+        "title":"Pisa House",
+        "subTitle":"HUDA City Center",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹24,299/mo*"
+    }
+]
+
+}

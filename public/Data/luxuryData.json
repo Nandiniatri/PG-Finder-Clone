@@ -1,0 +1,49 @@
+{
+    "luxuryPGData" :[
+    {
+        "id":"1",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1660115675/Website/CMS-Uploads/wwnn9d0omcndivmf1rep.jpg",
+        "title":"Settl Lumia",
+        "subTitle":"Sector 20",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹50,000/mo*"
+    },
+    {
+        "id":"2",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1647950337/Website/CMS-Uploads/yf7vqjjfbennkr3ovhmj.jpg",
+        "title":"Saltstayz Sector 38",
+        "subTitle":"Sector 38, Gurugram",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹51,300/mo*"
+    },
+    {
+        "id":"3",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1662534324/Website/CMS-Uploads/iuyhgenkpvhp1nrmiadf.jpg",
+        "title":"Xeniahub-  XGGN0039 (Girls)",
+        "subTitle":"Sector-39, Gurgaon",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹52,400/mo*"
+    },
+    {
+        "id":"4",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1635836119/Website/CMS-Uploads/eiwukitpkwva6ybukq7o.jpg",
+        "title":"Settl Deia - Near Medicity",
+        "subTitle":"Sector 40, Gurgaon",
+        "gender":"Unisex",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹53,399/mo*"
+    }
+]
+
+}

@@ -1,0 +1,584 @@
+{
+    "pgs": [
+      {
+        "id": 1,
+        "name": "PG 1",
+        "location": "Suburb",
+        "price_per_month": 725,
+        "available_rooms": 9,
+        "locality": "Suburb",
+        "budget": "Medium",
+        "gender": "Female", 
+        "occupancy": "Single/Shared",
+        "attached_balcony": false,  
+        "air_conditioning": false,
+        "attached_washroom": false, 
+        "hot_meals": false,
+        "high_speed_wifi": false,
+        "power_backup": false,
+        "laundry_service": true,
+        "security_surveillance": true,
+        "hot_water_supply": false,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 1",
+          "distance_to_nearest_station": "5 km"
+        }
+      },
+      {
+        "id": 2,
+        "name": "PG 2",
+        "location": "Suburb",
+        "price_per_month": 1567,
+        "available_rooms": 10,
+        "locality": "Downtown",
+        "budget": "Medium",
+        "gender": "Male",
+        "occupancy": "Shared",
+        "attached_balcony": false,
+        "air_conditioning": false,
+        "attached_washroom": true,
+        "hot_meals": true,
+        "high_speed_wifi": true,
+        "power_backup": false,
+        "laundry_service": true,
+        "security_surveillance": true,
+        "hot_water_supply": true,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 2",
+          "distance_to_nearest_station": "7 km"
+        }
+      },
+      {
+        "id": 3,
+        "name": "PG 3",
+        "location": "Downtown",
+        "price_per_month": 1643,
+        "available_rooms": 5,
+        "locality": "Downtown",
+        "budget": "Medium",
+        "gender": "Male",
+        "occupancy": "Shared",
+        "attached_balcony": false,
+        "air_conditioning": false,
+        "attached_washroom": false,
+        "hot_meals": true,
+        "high_speed_wifi": true,
+        "power_backup": true,
+        "laundry_service": true,
+        "security_surveillance": true,
+        "hot_water_supply": true,
+        "water_purifier": true,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 3",
+          "distance_to_nearest_station": "5 km"
+        }
+      },
+      {
+        "id": 4,
+        "name": "PG 4",
+        "location": "Suburb",
+        "price_per_month": 822,
+        "available_rooms": 9,
+        "locality": "Downtown",
+        "budget": "Medium",
+        "gender": "Female",
+        "occupancy": "Single",
+        "attached_balcony": true,
+        "air_conditioning": false,
+        "attached_washroom": false,
+        "hot_meals": false,
+        "high_speed_wifi": false,
+        "power_backup": false,
+        "laundry_service": true,
+        "security_surveillance": false,
+        "hot_water_supply": true,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 4",
+          "distance_to_nearest_station": "2 km"
+        }
+      },
+      {
+        "id": 5,
+        "name": "PG 5",
+        "location": "Downtown",
+        "price_per_month": 1690,
+        "available_rooms": 1,
+        "locality": "Campus",
+        "budget": "High",
+        "gender": "Male",
+        "occupancy": "Single",
+        "attached_balcony": true,
+        "air_conditioning": false,
+        "attached_washroom": true,
+        "hot_meals": true,
+        "high_speed_wifi": true,
+        "power_backup": true,
+        "laundry_service": false,
+        "security_surveillance": true,
+        "hot_water_supply": false,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 5",
+          "distance_to_nearest_station": "9 km"
+        }
+      },
+      {
+        "id": 6,
+        "name": "PG 6",
+        "location": "Suburb",
+        "price_per_month": 1251,
+        "available_rooms": 9,
+        "locality": "Suburb",
+        "budget": "High",
+        "gender": "Male",
+        "occupancy": "Single",
+        "attached_balcony": false,
+        "air_conditioning": true,
+        "attached_washroom": false,
+        "hot_meals": false,
+        "high_speed_wifi": false,
+        "power_backup": false,
+        "laundry_service": false,
+        "security_surveillance": true,
+        "hot_water_supply": true,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 6",
+          "distance_to_nearest_station": "6 km"
+        }
+      },
+      {
+        "id": 7,
+        "name": "PG 7",
+        "location": "Campus",
+        "price_per_month": 1500,
+        "available_rooms": 6,
+        "locality": "Campus",
+        "budget": "Low",
+        "gender": "Male",
+        "occupancy": "Single/Shared",
+        "attached_balcony": true,
+        "air_conditioning": true,
+        "attached_washroom": true,
+        "hot_meals": true,
+        "high_speed_wifi": false,
+        "power_backup": true,
+        "laundry_service": false,
+        "security_surveillance": false,
+        "hot_water_supply": true,
+        "water_purifier": true,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 7",
+          "distance_to_nearest_station": "3 km"
+        }
+      },
+      {
+        "id": 8,
+        "name": "PG 8",
+        "location": "Campus",
+        "price_per_month": 1198,
+        "available_rooms": 2,
+        "locality": "Downtown",
+        "budget": "Low",
+        "gender": "Any",
+        "occupancy": "Single/Shared",
+        "attached_balcony": false,
+        "air_conditioning": true,
+        "attached_washroom": false,
+        "hot_meals": false,
+        "high_speed_wifi": false,
+        "power_backup": true,
+        "laundry_service": true,
+        "security_surveillance": true,
+        "hot_water_supply": true,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 8",
+          "distance_to_nearest_station": "2 km"
+        }
+      },
+      {
+        "id": 9,
+        "name": "PG 9",
+        "location": "Campus",
+        "price_per_month": 1668,
+        "available_rooms": 1,
+        "locality": "Downtown",
+        "budget": "Low",
+        "gender": "Male",
+        "occupancy": "Single",
+        "attached_balcony": false,
+        "air_conditioning": false,
+        "attached_washroom": true,
+        "hot_meals": true,
+        "high_speed_wifi": true,
+        "power_backup": false,
+        "laundry_service": false,
+        "security_surveillance": true,
+        "hot_water_supply": true,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 9",
+          "distance_to_nearest_station": "10 km"
+        }
+      },
+      {
+        "id": 10,
+        "name": "PG 10",
+        "location": "Downtown",
+        "price_per_month": 1385,
+        "available_rooms": 5,
+        "locality": "Suburb",
+        "budget": "Low",
+        "gender": "Male",
+        "occupancy": "Shared",
+        "attached_balcony": true,
+        "air_conditioning": false,
+        "attached_washroom": false,
+        "hot_meals": false,
+        "high_speed_wifi": true,
+        "power_backup": true,
+        "laundry_service": true,
+        "security_surveillance": false,
+        "hot_water_supply": false,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 10",
+          "distance_to_nearest_station": "1 km"
+        }
+      },
+      {
+        "id": 11,
+        "name": "PG 11",
+        "location": "Campus",
+        "price_per_month": 1383,
+        "available_rooms": 4,
+        "locality": "Campus",
+        "budget": "Medium",
+        "gender": "Male",
+        "occupancy": "Single",
+        "attached_balcony": true,
+        "air_conditioning": false,
+        "attached_washroom": false,
+        "hot_meals": false,
+        "high_speed_wifi": false,
+        "power_backup": true,
+        "laundry_service": false,
+        "security_surveillance": false,
+        "hot_water_supply": true,
+        "water_purifier": true,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 11",
+          "distance_to_nearest_station": "3 km"
+        }
+      },
+      {
+        "id": 12,
+        "name": "PG 12",
+        "location": "Suburb",
+        "price_per_month": 1339,
+        "available_rooms": 1,
+        "locality": "Suburb",
+        "budget": "Low",
+        "gender": "Male",
+        "occupancy": "Single",
+        "attached_balcony": false,
+        "air_conditioning": false,
+        "attached_washroom": true,
+        "hot_meals": true,
+        "high_speed_wifi": false,
+        "power_backup": false,
+        "laundry_service": false,
+        "security_surveillance": false,
+        "hot_water_supply": false,
+        "water_purifier": true,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 12",
+          "distance_to_nearest_station": "7 km"
+        }
+      },
+      {
+        "id": 13,
+        "name": "PG 13",
+        "location": "Campus",
+        "price_per_month": 1079,
+        "available_rooms": 1,
+        "locality": "Campus",
+        "budget": "Medium",
+        "gender": "Male",
+        "occupancy": "Single",
+        "attached_balcony": false,
+        "air_conditioning": true,
+        "attached_washroom": true,
+        "hot_meals": true,
+        "high_speed_wifi": false,
+        "power_backup": false,
+        "laundry_service": true,
+        "security_surveillance": false,
+        "hot_water_supply": true,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 13",
+          "distance_to_nearest_station": "8 km"
+        }
+      },
+      {
+        "id": 14,
+        "name": "PG 14",
+        "location": "Suburb",
+        "price_per_month": 1610,
+        "available_rooms": 7,
+        "locality": "Downtown",
+        "budget": "Medium",
+        "gender": "Female",
+        "occupancy": "Single",
+        "attached_balcony": false,
+        "air_conditioning": false,
+        "attached_washroom": true,
+        "hot_meals": true,
+        "high_speed_wifi": true,
+        "power_backup": false,
+        "laundry_service": false,
+        "security_surveillance": true,
+        "hot_water_supply": true,
+        "water_purifier": true,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 14",
+          "distance_to_nearest_station": "5 km"
+        }
+      },
+      {
+        "id": 15,
+        "name": "PG 15",
+        "location": "Campus",
+        "price_per_month": 983,
+        "available_rooms": 5,
+        "locality": "Campus",
+        "budget": "Low",
+        "gender": "Female",
+        "occupancy": "Shared",
+        "attached_balcony": false,
+        "air_conditioning": false,
+        "attached_washroom": false,
+        "hot_meals": true,
+        "high_speed_wifi": true,
+        "power_backup": true,
+        "laundry_service": true,
+        "security_surveillance": true,
+        "hot_water_supply": false,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 15",
+          "distance_to_nearest_station": "6 km"
+        }
+      },
+      {
+        "id": 16,
+        "name": "PG 16",
+        "location": "Campus",
+        "price_per_month": 1681,
+        "available_rooms": 8,
+        "locality": "Downtown",
+        "budget": "Medium",
+        "gender": "Female",
+        "occupancy": "Single",
+        "attached_balcony": true,
+        "air_conditioning": false,
+        "attached_washroom": false,
+        "hot_meals": true,
+        "high_speed_wifi": true,
+        "power_backup": true,
+        "laundry_service": false,
+        "security_surveillance": true,
+        "hot_water_supply": true,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 16",
+          "distance_to_nearest_station": "4 km"
+        }
+      },
+      {
+        "id": 17,
+        "name": "PG 17",
+        "location": "Downtown",
+        "price_per_month": 574,
+        "available_rooms": 5,
+        "locality": "Campus",
+        "budget": "Low",
+        "gender": "Any",
+        "occupancy": "Shared",
+        "attached_balcony": false,
+        "air_conditioning": false,
+        "attached_washroom": false,
+        "hot_meals": true,
+        "high_speed_wifi": true,
+        "power_backup": true,
+        "laundry_service": true,
+        "security_surveillance": false,
+        "hot_water_supply": false,
+        "water_purifier": true,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 17",
+          "distance_to_nearest_station": "5 km"
+        }
+      },
+      {
+        "id": 18,
+        "name": "PG 18",
+        "location": "Suburb",
+        "price_per_month": 1149,
+        "available_rooms": 1,
+        "locality": "Suburb",
+        "budget": "Low",
+        "gender": "Male",
+        "occupancy": "Shared",
+        "attached_balcony": true,
+        "air_conditioning": true,
+        "attached_washroom": true,
+        "hot_meals": true,
+        "high_speed_wifi": false,
+        "power_backup": true,
+        "laundry_service": false,
+        "security_surveillance": true,
+        "hot_water_supply": false,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 18",
+          "distance_to_nearest_station": "7 km"
+        }
+      },
+      {
+        "id": 19,
+        "name": "PG 19",
+        "location": "Campus",
+        "price_per_month": 656,
+        "available_rooms": 9,
+        "locality": "Downtown",
+        "budget": "Medium",
+        "gender": "Female",
+        "occupancy": "Shared",
+        "attached_balcony": true,
+        "air_conditioning": false,
+        "attached_washroom": true,
+        "hot_meals": false,
+        "high_speed_wifi": true,
+        "power_backup": true,
+        "laundry_service": true,
+        "security_surveillance": false,
+        "hot_water_supply": true,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615916/Website/CMS-Uploads/p3xaytazl3frvpjltot3.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/f_auto,q_auto/v1648615398/Website/CMS-Uploads/wevhoteybp3ntqqrjyu8.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 19",
+          "distance_to_nearest_station": "10 km"
+        }
+      },
+      {
+        "id": 20,
+        "name": "PG 20",
+        "location": "Suburb",
+        "price_per_month": 1421,
+        "available_rooms": 10,
+        "locality": "Downtown",
+        "budget": "High",
+        "gender": "Female",
+        "occupancy": "Single",
+        "attached_balcony": false,
+        "air_conditioning": false,
+        "attached_washroom": true,
+        "hot_meals": false,
+        "high_speed_wifi": false,
+        "power_backup": false,
+        "laundry_service": true,
+        "security_surveillance": true,
+        "hot_water_supply": false,
+        "water_purifier": false,
+        "images": [
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg",
+          "https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:30/v1680063873/Website/CMS-Uploads/IMG_4101_2_3_yc44cp.jpg"
+        ],
+        "details": {
+          "description": "Description for PG 20",
+          "distance_to_nearest_station": "8 km"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.middle{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 45px 70px; */
+    height: auto;
+    width: 100%;
+}
+.menu{
+    border-bottom: none;
+    background-color:rgb(248, 247, 244);
+    border-bottom: none;
+    border: solid;
+}
+.search-container .ant-btn:hover {
+    background-color: #45a049;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+
+:where(.css-dev-only-do-not-override-1pg9a38)[class^="ant-input"], :where(.css-dev-only-do-not-override-1pg9a38)[class*=" ant-input"] {
+    box-sizing: border-box;
+    height: 50px;
+}
+:where(.css-dev-only-do-not-override-1pg9a38).ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button {
+    margin-inline-end: -1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-start-start-radius: 0;
+    border-start-end-radius: 6px;
+    border-end-end-radius: 6px;
+    border-end-start-radius: 0;
+    box-shadow: none;
+    background: rgb(96, 195, 173);
+    height: 50px;
+}

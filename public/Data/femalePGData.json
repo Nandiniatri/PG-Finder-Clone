@@ -1,0 +1,49 @@
+{
+    "femalePGData" :[
+    {
+        "id":"1",
+        "img":"https://cupliv.com/images/delhi/Urban-Storey/1.jpg",
+        "title":"PG in Independent Apartment near Jal Vayn Vihar",
+        "subTitle":"Delhi",
+        "gender":"Female",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹20,000/mo*"
+    },
+    {
+        "id":"2",
+        "img":"https://img.cofynd.com/images/original/c834d216d1b441fa6227c87118801d7b6450599d.jpg",
+        "title":"PG in Independent Apartment near Tatvas",
+        "subTitle":"Bengaluru",
+        "gender":"Female",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹21,300/mo*"
+    },
+    {
+        "id":"3",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1580381715/Website/CMS-Uploads/kkuwmronajofbnxy2j2x.jpg",
+        "title":"PG in Independent Apartment near Fungli",
+        "subTitle":"South Delhi",
+        "gender":"Female",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹22,400/mo*"
+    },
+    {
+        "id":"4",
+        "img":"https://res.cloudinary.com/stanza-living/image/upload/f_auto,q_auto,w_600/e_improve/e_sharpen:10/e_saturation:10/v1580381732/Website/CMS-Uploads/cn0nsdx3x9jdentdq0iq.jpg",
+        "title":"PG in Independent Apartment near Jal Vayn Vihar",
+        "subTitle":"North Delhi",
+        "gender":"Female",
+        "bathRoom":"Attached WashRoom",
+        "bad":"Single",
+        "start":"Start from",
+        "money":"₹33,399/mo*"
+    }
+]
+
+}

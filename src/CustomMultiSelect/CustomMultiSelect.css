@@ -1,0 +1,75 @@
+/* src/components/CustomMultiSelect.css */
+.custom-multiselect {
+    position: relative;
+    display: inline-block;
+    margin: 0 18px;
+  }
+  .dropdown-toggle {
+    height: 50px;
+    padding: 14px 20px;
+    border-radius: 4.5em;
+    /* border: 1px solid rgb(232, 232, 232); */
+    line-height: 21px;
+    color: white;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 200px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 15px;
+  }
+  
+  .dropdown-item {
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    /* border: solid; */
+  }
+  
+  .dropdown-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+.custom-multiselect button{
+  border: solid;
+  height: 50px;
+  padding: 14px 20px;
+  border-radius: 4.5em;
+  border: 1px solid rgb(232, 232, 232);
+  font-size: 16px;
+  line-height: 21px;
+  color: rgb(41, 45, 50);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  white-space: nowrap;
+  font-family: Font-Light;
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: white;
+}
+.price label {
+  border: solid;
+  height: 50px;
+  padding: 14px 20px;
+  border-radius: 4.5em;
+  border: 1px solid rgb(232, 232, 232);
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  font-size: 16px;
+}
