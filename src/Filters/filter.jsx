@@ -12,7 +12,7 @@ const Filter = ({ filters, onChange }) =>{
 
     const handleLocationChange = (newLocations) => {
         onChange('location', newLocations); 
-      };
+      }; 
     
       const handleBudgetChange = (newBudgets) => {
         onChange('budget', newBudgets); 
@@ -28,60 +28,54 @@ const Filter = ({ filters, onChange }) =>{
 
       return (
         <div className="filter-panel">
-          <CustomMultiSelect
-            options={['Downtown', 'Suburb', 'Campus']}
-            selectedOptions={filters.location}
-            onChange={handleLocationChange}
-            label="Location"
-          />
-    
-          <CustomMultiSelect
-            options={['Low', 'Medium', 'High']}
-            selectedOptions={filters.budget}
-            onChange={handleBudgetChange}
-            label="Budget"
-          />
-    
-          <CustomMultiSelect
-            options={['Air Conditioning', 'Hot Meals', 'High-Speed WiFi', 'Laundry Service']}
-            selectedOptions={filters.amenities}
-            onChange={handleAmenitiesChange}
-            label="Amenities"
-          />
+          <div className='filter-panel-inner-div'>
+            <CustomMultiSelect
+              options={['Downtown', 'Suburb', 'Campus']}
+              selectedOptions={filters.location}
+              onChange={handleLocationChange}
+              label="Location"
+            />
+      
+            <CustomMultiSelect
+              options={['Low', 'Medium', 'High']}
+              selectedOptions={filters.budget}
+              onChange={handleBudgetChange}
+              label="Budget"
+            />
+      
+            <CustomMultiSelect
+              options={['Air Conditioning', 'Hot Meals', 'High-Speed WiFi', 'Laundry Service']}
+              selectedOptions={filters.amenities}
+              onChange={handleAmenitiesChange}
+              label="Amenities"
+            />
 
-          <CustomMultiSelect
-            options={['Male' , 'Female' , 'Any']}
-            selectedOptions={filters.gender}
-            onChange={handleGenderChange}
-            label="Gender"
-          />
+            <CustomMultiSelect
+              options={['Male' , 'Female' , 'Any']}
+              selectedOptions={filters.gender}
+              onChange={handleGenderChange}
+              label="Gender"
+            />
+          </div>
+        
 
           <div className="price">
-            <label>
+            <label className='pricelabel'>
               Price Range:
             </label>
 
+          <div className='price-range-div'>
             <input
-                type="range"
-                name="price_range"
-                min="0"
-                max="2000"
-                value={filters.price_range}
-                onChange={(e) => onChange('price_range', e.target.value)}
-              />
+                  type="range"
+                  name="price_range"
+                  min="0"
+                  max="2000"
+                  value={filters.price_range}
+                  onChange={(e) => onChange('price_range', e.target.value)}
+                />
               <span>₹{filters.price_range}</span>
           </div>
-      
-    
-          {/* <label>
-            Move-in Date:
-            <input
-              type="date"
-              name="move_in_date"
-              value={filters.move_in_date}
-              onChange={(e) => onChange('move_in_date', e.target.value)}
-            />
-          </label> */}
+          </div>
         </div>
       );
     };

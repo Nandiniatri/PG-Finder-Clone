@@ -9,7 +9,7 @@
     padding: 14px 20px;
     border-radius: 4.5em;
     /* border: 1px solid rgb(232, 232, 232); */
-    line-height: 21px;
+    line-height: 21px; 
     color: white;
     display: flex;
     align-items: center;
@@ -72,4 +72,39 @@
   cursor: pointer;
   transition: all 0.2s ease 0s;
   font-size: 16px;
+}
+.downIcon{
+  font-size: 12px;
+}
+@media screen and (max-width:400px) {
+  .custom-multiselect{
+    /* border: solid blue; */
+  }
+  .custom-multiselect button{
+    /* border: solid red; */
+    font-size: 10px;
+    height: 18px;
+    padding: 15px 6px;
+    /* width: 20%; */
+  }
+  .downIcon{
+    /* border: solid; */
+    font-size: 10px;
+  }
+  .price {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    /* border: solid blue; */
+    justify-content: center;
+}
+
+.price .pricelabel {
+    /* border: solid red !important; */
+    padding: 10px 6px;
+    height: auto;
+    font-size: 10px; 
+    line-height: 1.2;
+}
+
 }

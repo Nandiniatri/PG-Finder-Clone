@@ -38,12 +38,12 @@ const CustomMultiSelect = ({ options, selectedOptions, onChange, label }) => {
     onChange(updatedSelection);
   };
 
-  return (
+  return ( 
     <div className="custom-multiselect" ref={dropdownRef}>
       <button className="dropdown-toggle" onClick={toggleDropdown}>
         <div style={{display:'flex' , alignItems:'center' , gap:'5px'}}>
           <div>{label}</div>
-          <div><DownOutlined style={{fontSize:'12px'}}/></div>
+          <div><DownOutlined className='downIcon'/></div>
         </div>
 
       </button>

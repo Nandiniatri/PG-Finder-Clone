@@ -56,39 +56,43 @@ const FooterFile = () => {
                        <img className="inner-Div1-Img" src="https://res.cloudinary.com/stanza-living/image/upload/w_182/v1652358946/Website%20v5/Logo/stanzalogo.png"/>
                     </div>
 
-                    <div>
-                        <ul>
-                            <li><a href="#About Us">About Us</a></li>
-                            <li><a href="#Team">Team</a></li>
-                            <li><a href="#Investor">Investor</a></li>
-                            <li><a href="#Media">Media</a></li>
-                        </ul>
-                    </div>
+                    <div className='div1-innerSec'>
+                        <div>
+                            <ul>
+                                <li><a href="#About Us">About Us</a></li>
+                                <li><a href="#Team">Team</a></li>
+                                <li><a href="#Investor">Investor</a></li>
+                                <li><a href="#Media">Media</a></li>
+                            </ul>
+                        </div>
 
-                    <div>
-                        <ul>
-                            <li><a href="#Blogs">Blogs</a></li>
-                            <li><a href="#FAQs">FAQs</a></li>
-                            <li><a href="#Refer and Earn">Refer and Earn</a></li>
-                            <li><a href="#House Rules">House Rules</a></li>
-                        </ul>
-                    </div>
+                        <div>
+                            <ul>
+                                <li><a href="#Blogs">Blogs</a></li>
+                                <li><a href="#FAQs">FAQs</a></li>
+                                <li><a href="#Refer and Earn">Refer and Earn</a></li>
+                                <li><a href="#House Rules">House Rules</a></li>
+                            </ul>
+                        </div>
 
-                    <div>
-                        <ul>
-                            <li><a href="#T&C">T&C</a></li>
-                            <li><a href="#Privacy Policy">Privacy Policy</a></li>
-                            <li><a href="#Contact Us">Contact Us</a></li>
-                            <li><a href="#COVID-19">COVID-19</a></li>
-                        </ul>
-                    </div>
+                        <div>
+                            <ul>
+                                <li><a href="#T&C">T&C</a></li>
+                                <li><a href="#Privacy Policy">Privacy Policy</a></li>
+                                <li><a href="#Contact Us">Contact Us</a></li>
+                                <li><a href="#COVID-19">COVID-19</a></li>
+                            </ul>
+                        </div>
 
-                    <div>
-                        <ul>
-                            <li><a href="#Partner With Us">Partner With Us</a></li>
-                            <li><a href="#Cookie Policy">Cookie Policy</a></li>
-                        </ul>
+                        <div>
+                            <ul>
+                                <li><a href="#Partner With Us">Partner With Us</a></li>
+                                <li><a href="#Cookie Policy">Cookie Policy</a></li>
+                            </ul>
+                        </div>
+                        
                     </div>
+                    
 
                     <div className="div2-inner-LiA">
                         <ul>
@@ -104,4 +108,4 @@ const FooterFile = () => {
     )
 }
 
-export default FooterFile
+export default FooterFile 

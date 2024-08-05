@@ -1,16 +1,14 @@
-import { Carousel, Image } from 'antd'
-import './carouselFile.css'
+import { Carousel, Image } from 'antd';
+import './carouselFile.css';
 
+const carouselStyle = {
+    padding: '20px'
+};
 
-const carouselStyle ={
-    // border:'solid',
-    padding:'20px'
-}
-
-const CarouselFile = () =>{
+const CarouselFile = () => {
     return (
         <>
-            <Carousel autoplaySpeed={3000} autoplay style={carouselStyle}> 
+            <Carousel autoplaySpeed={3000} autoplay style={carouselStyle} className='carousal-div'>
                 <div>
                     <Image className="carousel-image" src='https://www.stanzaliving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fstanza-living%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Fv1688556552%2FWebsite%2FCMS-Uploads%2FWeb_Banner_03_Desktop_1_vzb4dj.png&w=1920&q=75'/>
                 </div>
@@ -25,7 +23,7 @@ const CarouselFile = () =>{
                 </div>
             </Carousel>
         </>
-    )
+    );
 }
 
-export default CarouselFile
+export default CarouselFile;

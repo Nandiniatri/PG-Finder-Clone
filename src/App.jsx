@@ -61,7 +61,7 @@ function App() {
   };
   
   return (
-    <> 
+    <div className='app'> 
         <HeaderFile />
         <Carousel />
         {/* <Area /> */}
@@ -69,7 +69,7 @@ function App() {
         <PGData pgs={pgs} />
         <Brief />
         <FooterFile />
-    </>
+    </div>
   )
 }
 

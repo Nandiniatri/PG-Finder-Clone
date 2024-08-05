@@ -1,45 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.middle{
-    /* border: solid; */
+
+.middle {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header{
-    /* border: solid; */
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 45px 70px; */
     height: auto;
     width: 100%;
+    padding: 0 20px;
 }
-.menu{
+
+.menu {
     border-bottom: none;
-    background-color:rgb(248, 247, 244);
-    border-bottom: none;
-    border: solid;
+    background-color: rgb(248, 247, 244);
 }
+
 .search-container .ant-btn:hover {
     background-color: #45a049;
 }
 
-a{
-    color: black;
-}
-a:hover{
+a {
     color: black;
 }
 
-:where(.css-dev-only-do-not-override-1pg9a38)[class^="ant-input"], :where(.css-dev-only-do-not-override-1pg9a38)[class*=" ant-input"] {
-    box-sizing: border-box;
+a:hover {
+    color: black;
+}
+
+.ant-input {
     height: 50px;
 }
-:where(.css-dev-only-do-not-override-1pg9a38).ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button {
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
     margin-inline-end: -1px;
     padding-top: 0;
     padding-bottom: 0;
@@ -49,5 +50,77 @@ a:hover{
     border-end-start-radius: 0;
     box-shadow: none;
     background: rgb(96, 195, 173);
-    height: 50px;
+    height: 65px;
+}
+.responsiveSearch{
+    /* border: solid; */
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ant-input-search {
+        width: 100%;
+        display: none;
+    }
+
+    .ant-image {
+        width: 80px;
+    }
+
+    .ant-dropdown-trigger {
+        width: 100%;
+        text-align: center;
+    }
+    .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button{
+        display: none;
+    }
+    .ant-input-search :where(.css-dev-only-do-not-override-1pg9a38).ant-input-group .ant-input-affix-wrapper:not(:last-child){
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+    .responsiveSearch{
+        display: block;
+        margin-left: 300px;
+        font-size: 34px;
+        top: -48px;
+        position: relative;
+        color: rgb(96, 195, 173);
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-top: 15px;
+        padding-left: 30px;
+        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    .ant-image {
+        width: 50px;
+    }
+
+    .ant-input-search {
+        display: none;
+    }
+    .search-icon {
+        display: block;
+    }
+}
+
+.search-icon {
+    display: none;
 }

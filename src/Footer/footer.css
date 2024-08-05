@@ -73,3 +73,38 @@ ul li{
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.div1-innerSec{
+    display: flex;
+    gap: 30px;
+}
+@media screen and (max-width:400px){
+    .footer-Container{
+        /* border: solid white; */
+    }
+    .footer-Container-inner-Div{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 40px;
+        align-items: center;
+    }
+    ul li{
+        font-size: 16px;
+    }
+    .footer-Container-inner-Div1{
+       display: flex;
+       flex-direction: column;
+       justify-content: start;
+       align-items: start;
+    }
+    .div1-innerSec{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .div2-inner-LiA{
+        /* border: solid; */
+        width: 100%;
+        margin-top: 20px;
+    }
+}

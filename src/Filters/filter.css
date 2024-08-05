@@ -1,23 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.filter-panel{
+
+.filter-panel {
     /* border: solid; */
     padding: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-.price{
+.filter-panel-inner-div{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid; */
+    width: 65%;
+    gap: 30px;
+}
+
+.price {
     /* border: solid; */
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
-.price label{
-    border: solid;
+
+.price .pricelabel {
     height: 50px;
     padding: 14px 20px;
     border-radius: 4.5em;
@@ -28,4 +40,46 @@
     white-space: nowrap;
     cursor: pointer;
     transition: all 0.2s ease 0s;
+}
+.filter-panel-inner-div{
+    display: flex;
+}
+
+@media screen and (max-width: 400px) {
+    .filter-panel {
+        display: flex;
+        /* flex-direction: row; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        /* flex-wrap: wrap; */
+        padding: 10px;
+        gap: 10px;
+    }
+    .filter-panel-inner-div{
+        display: flex;
+        width: 100%;
+        justify-content: start;
+        overflow: hidden;
+        gap: 0px;
+    }
+    .price-range-div{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 10px;
+    }
+    .price .price-range-div input {
+        width: 60%;
+        margin-top: 10px;
+    }
+    
+    .price .price-range-div span {
+        margin-top: 10px;
+        font-size: 12px; 
+    }
+/* 
+    .filter-panel > div {
+        width: 100%;
+    } */
+
 }
