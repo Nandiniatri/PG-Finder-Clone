@@ -57,6 +57,8 @@ const HeaderFile = () => {
                         size="large"
                         suffix={<SearchOutlined />}
                         style={searchStyle}
+                        className="searchJi"
+
                     />
 
                     <Dropdown

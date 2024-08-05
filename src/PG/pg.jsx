@@ -12,7 +12,7 @@ const PGData = ({pgs}) => {
     return (
         <Layout>
             <Content style={{backgroundColor:'white'}}>
-            <h1 style={{marginLeft:'25px' , marginTop:'25px'}}>PGs is waiting for you</h1>
+            <h1 style={{marginLeft:'25px' , marginTop:'25px'}} className='pgs-h1'>PGs is waiting for you</h1>
             <div className="pg-list">
                 {pgs.map(pg => (
                     <PGCard key={pg.id} pg={pg} />

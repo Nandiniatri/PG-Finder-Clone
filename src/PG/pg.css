@@ -142,6 +142,12 @@
   @media screen and (max-width: 400px) {
     .pg-card {
       flex-direction: column;
+      width: 92%;
+    }
+    .pgs-content{
+        /* border: solid; */
+        display: flex;
+        justify-content: center;
     }
   
     .ant-image {
@@ -159,10 +165,39 @@
     .pg-card-div2 {
       padding: 10px;
     }
-  
     .button-container, .btn-description, .btn-room {
       width: 100%;
       margin-top: 10px;
+    }
+    .button-container .btn-description{
+        width: 46%;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .button-container .btn-room{
+        width: 42%;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .Pg-Cart-btn .price-container{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .Pg-Cart-btn .price{
+        font-size: 20px;
+    }
+    .pgs-h1{
+        font-size: 23px;
+    }
+    .buttons-container .primary-btn{
+        width: 100%;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .buttons-container .secondary-btn{
+        width: 100%;
+        font-size: 12px;
+        font-weight: bold;
     }
   }
   

@@ -61,10 +61,25 @@ a:hover {
     .header {
         flex-direction: column;
         align-items: flex-start;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        padding-top: 10px;
+        padding-left: 30px;
     }
 
-    .ant-input-search {
+    /* .ant-input-search {
         width: 100%;
+        display: none;
+    } */
+    /* .ant-input-search :where(.css-1pg9a38).ant-input-group .ant-input-affix-wrapper:not(:last-child){
+        display: none;
+    } */
+    .ant-input-affix-wrapper-lg{
+        display: none;
+    }
+    .ant-input-search >.ant-input-group >.ant-input-group-addon:last-child{
+        border: solid;
         display: none;
     }
 
@@ -75,12 +90,6 @@ a:hover {
     .ant-dropdown-trigger {
         width: 100%;
         text-align: center;
-    }
-    .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button{
-        display: none;
-    }
-    .ant-input-search :where(.css-dev-only-do-not-override-1pg9a38).ant-input-group .ant-input-affix-wrapper:not(:last-child){
-        display: none;
     }
     .dropdown{
         display: none;
@@ -96,30 +105,6 @@ a:hover {
     
 }
 
-@media screen and (max-width: 400px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        padding-top: 15px;
-        padding-left: 30px;
-        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-        position: fixed;
-        top: 0;
-        z-index: 100;
-    }
-
-    .ant-image {
-        width: 50px;
-    }
-
-    .ant-input-search {
-        display: none;
-    }
-    .search-icon {
-        display: block;
-    }
-}
 
 .search-icon {
     display: none;

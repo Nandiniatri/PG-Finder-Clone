@@ -7,7 +7,7 @@ const { Content } = Layout;
 const PGCard = ({ pg }) => {
   return (
     <Layout style={{ backgroundColor: 'white' }}>
-      <Content style={{ backgroundColor: 'white', marginTop: '20px' }}>
+      <Content style={{ backgroundColor: 'white', marginTop: '20px' }} className='pgs-content'>
         <div className="pg-card">
           <div className="pg-card-img-div">
             <Image src={pg.images[0]} alt={pg.name} className="pg-card-img" />
