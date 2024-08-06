@@ -79,9 +79,9 @@
 }
 @media screen and (max-width:400px) {
   .custom-multiselect button{
-    font-size: 10px;
+    font-size: 14px;
     height: 18px;
-    padding: 15px 6px;
+    padding: 16px 22px;
   }
   .downIcon{
     font-size: 10px;
@@ -93,10 +93,10 @@
     justify-content: center;
 }
   .price .pricelabel {
-      padding: 10px 6px;
-      height: auto;
-      font-size: 10px; 
-      line-height: 1.2;
+    padding: 9px 20px;
+    height: auto;
+    font-size: 14px; 
+    line-height: 1.2;
   }
   .dropdown-menu{
     width: auto;
@@ -104,8 +104,8 @@
   }
   .dropdown-item{
     /* border: solid; */
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 13px;
+    /* font-weight: bold; */
   }
 
 }
