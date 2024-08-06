@@ -1,96 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.filter-panel {
-    padding: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-.filter-panel-inner-div{
-    display: flex;
-    justify-content: space-evenly;
-    width: 65%;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.price {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.price .pricelabel {
-    height: 50px;
-    padding: 14px 20px;
-    border-radius: 4.5em;
-    border: 1px solid rgb(232, 232, 232);
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    cursor: pointer;
-    transition: all 0.2s ease 0s;
-}
-.filter-panel-inner-div{
-    display: flex;
-}
-.price-range-div {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-@media screen and (max-width: 400px) {
-    .filter-panel {
-        padding: 10px;
-        gap: 10px;
-        flex-direction: column;
-        align-items: stretch;
-    }
-    .filter-panel-inner-div{
-        display: flex;
-        width: 100%;
-        justify-content: start;
-        overflow: hidden;
-        gap: 0px;
-    }
-    .price {
-        width: 100%;
-        justify-content: space-between; 
-    }
-    .price .pricelabel {
-        flex: 1; 
-    }
-
-    .price-range-div input {
-        width: 100%;
-    }
-
-    .price-range-div{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-    .price .price-range-div input {
-        width: 60%;
-        margin-top: 10px;
-    }
-    
-    .price .price-range-div span {
-        margin-top: 10px;
-        font-size: 12px; 
-    }
-
-} */
-
 * {
     margin: 0;
     padding: 0;
@@ -111,7 +18,7 @@
     justify-content: space-evenly;
     width: 65%;
     gap: 30px;
-    flex-wrap: wrap; /* Add this to wrap children on small screens */
+    flex-wrap: wrap;
 }
 
 .price {
@@ -144,7 +51,6 @@
     .filter-panel {
         padding: 10px;
         gap: 10px;
-        /* flex-direction: column;  */
     }
     
     .filter-panel-inner-div {
