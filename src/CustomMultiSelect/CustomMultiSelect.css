@@ -18,11 +18,12 @@
     transition: all 0.2s ease 0s;
   }
   .dropdown-menu {
+    /* border: solid; */
     position: absolute;
     top: 110%;
     left: 0;
     width: 200px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -60,7 +61,7 @@
   background-color: white;
 }
 .price label {
-  border: solid;
+  /* border: solid; */
   height: 50px;
   padding: 14px 20px;
   border-radius: 4.5em;
@@ -77,34 +78,34 @@
   font-size: 12px;
 }
 @media screen and (max-width:400px) {
-  .custom-multiselect{
-    /* border: solid blue; */
-  }
   .custom-multiselect button{
-    /* border: solid red; */
     font-size: 10px;
     height: 18px;
     padding: 15px 6px;
-    /* width: 20%; */
   }
   .downIcon{
-    /* border: solid; */
     font-size: 10px;
   }
   .price {
     align-items: center;
     display: flex;
     width: 100%;
-    /* border: solid blue; */
     justify-content: center;
 }
-
-.price .pricelabel {
-    /* border: solid red !important; */
-    padding: 10px 6px;
+  .price .pricelabel {
+      padding: 10px 6px;
+      height: auto;
+      font-size: 10px; 
+      line-height: 1.2;
+  }
+  .dropdown-menu{
+    width: auto;
     height: auto;
-    font-size: 10px; 
-    line-height: 1.2;
-}
+  }
+  .dropdown-item{
+    /* border: solid; */
+    font-size: 12px;
+    font-weight: bold;
+  }
 
 }
