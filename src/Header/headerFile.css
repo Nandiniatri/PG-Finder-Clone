@@ -67,14 +67,6 @@ a:hover {
         padding-top: 10px;
         padding-left: 30px;
     }
-
-    /* .ant-input-search {
-        width: 100%;
-        display: none;
-    } */
-    /* .ant-input-search :where(.css-1pg9a38).ant-input-group .ant-input-affix-wrapper:not(:last-child){
-        display: none;
-    } */
     .ant-input-affix-wrapper-lg{
         display: none;
     }
@@ -96,7 +88,7 @@ a:hover {
     }
     .responsiveSearch{
         display: block;
-        margin-left: 300px;
+        margin-left: 260px;
         font-size: 34px;
         top: -48px;
         position: relative;
