@@ -5,6 +5,7 @@
   }
   
   .pg-card {
+    /* border: solid; */
     display: flex;
     width: 100%;
     margin-top: 30px;
@@ -18,8 +19,7 @@
   }
   
   .pg-card-img-div {
-    width: 100%;
-    /* border: solid; */
+    width: 80%;
   }
   
   .pg-card-img {
@@ -136,7 +136,10 @@
     background-color: rgb(96 195 173 / 8%);
     color: gray;
     text-align: center;
-    width: 28%;
+    width: 30%;
+  }
+  .virtual-list{
+    border: solid;
   }
   
   @media screen and (max-width: 400px) {

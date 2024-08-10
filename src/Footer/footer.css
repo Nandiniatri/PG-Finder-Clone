@@ -44,12 +44,21 @@ ul li{
     align-items: center;
     padding: 10px;
     margin-top: 20px; 
+    /* border: solid; */
 }
-
+.div1-innerSec{
+    /* border: solid; */
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    /* width: 50%; */
+    padding: 15px;
+}
 .footer-Container-inner-Div1 div a{
     color: white;
     text-decoration: none;
 }
+
 .footer-Container-inner-Div1 div a:hover{
     text-decoration:underline;
 }
@@ -73,10 +82,10 @@ ul li{
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.div1-innerSec{
+/* .div1-innerSec{
     display: flex;
     gap: 30px;
-}
+} */
 @media screen and (max-width:400px){
     .footer-Container{
         /* border: solid white; */

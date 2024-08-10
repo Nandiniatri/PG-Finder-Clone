@@ -4,7 +4,7 @@
         "id": 1,
         "name": "PG 1",
         "location": "Suburb",
-        "price_per_month": 725,
+        "price_per_month": 725, 
         "available_rooms": 9,
         "locality": "Suburb",
         "budget": "Medium",

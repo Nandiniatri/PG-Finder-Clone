@@ -96,9 +96,9 @@ const FooterFile = () => {
 
                     <div className="div2-inner-LiA">
                         <ul>
-                            <li><a href="#facebook"><FacebookOutlined /></a></li>
-                            <li><a href="#linkdin"><LinkedinOutlined /></a></li>
-                            <li><a href="#instagram"><InstagramOutlined /></a></li>
+                            <li><a target="_blank" href="#facebook"><FacebookOutlined /></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/nandini-atri-494881232/"><LinkedinOutlined /></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/nandiniatri?igsh=MTR4bHpyYm95NTJ3bQ%3D%3D"><InstagramOutlined /></a></li>
                         </ul>
                     </div>
 
