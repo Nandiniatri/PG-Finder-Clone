@@ -16,7 +16,7 @@ function App() {
     budget: [],
     amenities: [],
     gender: [],
-    price_range: 2000,
+    price_range: 50000,
   });
 
   useEffect(() => {
@@ -63,7 +63,6 @@ function App() {
       <HeaderFile />
       <Carousel />
       <Filter filters={filters} onChange={handleFilterChange} />
-      {/* <PGData pgs={pgs}/> */}
       <PGCard pgs={pgs} setPgs={setPgs} />
       <Brief />
       <FooterFile />

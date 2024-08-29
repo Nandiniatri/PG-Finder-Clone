@@ -301,7 +301,7 @@ import VirtualList from 'rc-virtual-list';
 import { UserOutlined, AreaChartOutlined, BankOutlined } from '@ant-design/icons';
 import './pg.css';
 
-const ContainerHeight = 400;
+const ContainerHeight = 450;
 
 const PGCard = ({ pgs, setPgs }) => {
   const [scroll, setScroll] = useState([]);
@@ -328,7 +328,7 @@ const PGCard = ({ pgs, setPgs }) => {
   return (
     <List>
       <VirtualList
-        data={scroll}
+        data={scroll} 
         height={ContainerHeight}
         itemHeight={47}
         itemKey="id"
