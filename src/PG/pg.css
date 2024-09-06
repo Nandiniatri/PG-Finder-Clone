@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+
   .pg-card {
-    /* border: solid; */
+    /* border: solid red; */
     display: flex;
     width: 100%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     gap: 30px;
     border-radius: 10px;
     overflow: hidden;
@@ -16,6 +17,7 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px;
     padding: 10px;
     cursor: pointer;
+    /* height: 50vh; */
   }
   
   .pg-card-img-div {
@@ -204,3 +206,12 @@
     }
   }
   
+ /* .rc-virtual-list-holder{
+    border: solid slateblue;
+    height: 996px;
+    overflow-y: hidden;
+    overflow-anchor: none;
+  } */
+  #nonsense{
+    height: 1600px;
+  }

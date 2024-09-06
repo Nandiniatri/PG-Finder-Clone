@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -100,4 +100,18 @@ a:hover {
 
 .search-icon {
     display: none;
+}
+
+.header-Right-button{
+    /* border: solid; */
+    /* width: 100%; */
+    padding: 30px 20px;
+    font-size: 15px;
+    /* font-weight: bold; */
+    background-color: rgb(96, 195, 173);
+    color: white;
+}
+.searchJi{
+    /* border: solid; */
+    width: 100%;
 }
