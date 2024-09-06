@@ -341,7 +341,7 @@ const PGCard = ({ pgs, setPgs }) => {
           <List.Item key={pg.id}>
             <div className="pg-card">
               <div className="pg-card-img-div">
-                <Image src={pg.images[0]} alt={pg.name} className="pg-card-img" />
+                <Image src={pg.images[0]} alt={pg.name} className="pg-card-img" preview={false}/>
               </div>
               <div className="pg-card-div2">
                 <div>
